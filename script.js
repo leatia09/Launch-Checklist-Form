@@ -34,7 +34,7 @@ window.addEventListener("load", function() {
 
 			if (fuelLevel < 10000) {
 				ready = false;
-				fuelStatus.innerHTML = 'Not enough fuel for launch';
+				fuelStatus.innerHTML = 'Fuel level to low for launch';
 			} else {
 				fuelStatus.innerHTML = 'Fuel level high enough for launch';
 			}
