@@ -41,7 +41,7 @@ window.addEventListener("load", function() {
 
 			if (cargoMass > 10000) {
 				ready = false;
-				cargoStatus.innerHTML = 'Too much mass for the shuttle to take off';
+				cargoStatus.innerHTML = 'Mass level to high for the shuttle to take off';
 			} else {
 				cargoStatus.innerHTML = 'Cargo mass low enough for launch';
 			}
